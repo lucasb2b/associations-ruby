@@ -17,9 +17,13 @@
 #Appointment.create(doctor: d1, patient: p2, date: Date.today)
 #Appointment.create(doctor: d2, patient: p1, date: Date.today)
 
-s1 = Supplier.create(name: "Diego")
+#s1 = Supplier.create(name: "Diego")
 
-a1 = Account.create(number: 144, supplier: s1)
+#a1 = Account.create(number: 144, supplier: s1)
 
-AccountHistory.create(date: Date.today, account: a1)
+#AccountHistory.create(date: Date.today, account: a1)
+
+s1 = Student.create(name: "Noob")
+
+t1 = Teacher.create(name: "Diego")
 
